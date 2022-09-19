@@ -7379,7 +7379,7 @@ nav.sidebar-menu ul li a:hover {
 }
 .create-membership-wrap input {
   width: 700px;
-  height: 66px;
+  height: 700px;
   font-size: 16px;
   border: none;
   color: #8c8c8c;
@@ -7395,7 +7395,7 @@ nav.sidebar-menu ul li a:hover {
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .create-membership-wrap input {
-    width: 600px;
+    width: 10px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
