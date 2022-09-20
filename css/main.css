@@ -1058,7 +1058,7 @@ div.product #reviews .star-rating,
     left: 0;
     display: block;
     background: #fff;
-    background-image: url(../images/pre-loader-1.gif);
+    background-image: url(../images/load2.gif);
     background-repeat: no-repeat;
     background-position: center;
 }
