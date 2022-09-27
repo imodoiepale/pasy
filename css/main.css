@@ -1,4 +1,4 @@
-/**
+/**fonts
   * Name: Fondex
   * Version: 2.0
   * Author: ThemetechMount
@@ -282,7 +282,7 @@ a.tp-caption:hover,
 }
 /**  Shadow **/
 .box-shadow{
-    -webkit-box-shadow: 0 0 12px 0 blue;
+    -webkit-box-shadow: 0 0 12px 0 rgb(0, 0, 255);
     -moz-box-shadow: 0 0 12px 0 blue;
     box-shadow: 0 0 12px 0 blue;
 }
