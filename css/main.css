@@ -287,8 +287,8 @@ a.tp-caption:hover,
     box-shadow: 0 0 12px 0 blue;
 }
 .box-shadow2{
-    -webkit-box-shadow: 0 0 15px 0 rgba(32,46,60,.12);
-    -moz-box-shadow: 0 0 15px 0 rgba(32,46,60,.12);
+    -webkit-box-shadow: 0 0 15px 0 rgba(32, 46, 60, 0.753);
+    -moz-box-shadow: 0 0 15px 0 rgba(16, 47, 78, 0.473);
     box-shadow: 0 0 15px 0 rgba(32,46,60,.12);
 }
 
