@@ -1,11 +1,14 @@
-/**fonts
+/**
   * Name: Fondex
   * Version: 2.0
-  * Author: ThemetechMount
-  * Author URI: http://www.themetechmount.com
+  * Author: Nilotech
+  
 */
 
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i');
+/* @import url('https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
 
 /**
 
@@ -72,12 +75,12 @@ a:focus {
     text-decoration: none; 
 }
 a:focus, a:hover { 
-    color: rgb(2, 2, 32); 
+    color: #0097A7; 
     text-decoration: none; 
 }
 a, button, input { 
     outline: medium none; 
-    color: rgb(2, 2, 32); 
+    color: #0097A7; 
 }
 ol, ul{ 
     padding: 0; 
@@ -97,17 +100,17 @@ p {
 }
 
 *::-moz-selection { 
-    background: rgb(2, 2, 32); 
+    background: #0097A7; 
     color: #fff; 
     text-shadow: none; 
 }
 ::-moz-selection { 
-    background: rgb(2, 2, 32); 
+    background: #0097A7; 
     color: #fff;
     text-shadow: none; 
 }
 ::selection { 
-    background: rgb(2, 2, 32); 
+    background: #0097A7; 
     color: #fff; 
     text-shadow: none; 
 }
@@ -138,7 +141,7 @@ select{
     border-radius: 0;
     vertical-align: middle;
     width: 100%;
-    color: rgb(2, 2, 32);
+    color: #5d6576;
     padding: 9px 15px;
     font-weight: 400;
     background-color:#fff;
@@ -251,6 +254,11 @@ a.tp-caption:hover,
 .ttm-processbox-wrapper .featured-content,
 .ttm-processbox-wrapper .ttm-processbox .process-num,
 .featured-icon-box.style10{
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
     -webkit-transition: all 0.3s ease-in-out 0s !important; 
     -moz-transition: all 0.3s ease-in-out 0s !important; 
     -ms-transition: all 0.3s ease-in-out 0s !important; 
@@ -282,13 +290,13 @@ a.tp-caption:hover,
 }
 /**  Shadow **/
 .box-shadow{
-    -webkit-box-shadow: 0 0 12px 0 rgb(0, 0, 255);
-    -moz-box-shadow: 0 0 12px 0 blue;
-    box-shadow: 0 0 12px 0 blue;
+    -webkit-box-shadow: 0 0 12px 0 rgba(32,46,60,.06);
+    -moz-box-shadow: 0 0 12px 0 rgba(32,46,60,.06);
+    box-shadow: 0 0 12px 0 rgba(32,46,60,.06);
 }
 .box-shadow2{
-    -webkit-box-shadow: 0 0 15px 0 rgba(32, 46, 60, 0.753);
-    -moz-box-shadow: 0 0 15px 0 rgba(16, 47, 78, 0.473);
+    -webkit-box-shadow: 0 0 15px 0 rgba(32,46,60,.12);
+    -moz-box-shadow: 0 0 15px 0 rgba(32,46,60,.12);
     box-shadow: 0 0 15px 0 rgba(32,46,60,.12);
 }
 
@@ -580,12 +588,12 @@ ul.ttm-our-location-list li i,
 .ttm-textcolor-skincolor a, .featured-icon-box.style14 .featured-desc p,
 .featured-imagebox-portfolio-style1 .featured-title h5 a:hover,
 .ttm-blog-classic .ttm-blog-classic-content blockquote:before{
-  color: rgb(2, 2, 32);
+  color: #0097A7;
 }
 
 h1.ttm-textcolor-skincolor, h2.ttm-textcolor-skincolor, h3.ttm-textcolor-skincolor, 
 h4.ttm-textcolor-skincolor, h5.ttm-textcolor-skincolor, h6.ttm-textcolor-skincolor {
-  color: rgb(2, 2, 32) !important;
+  color: #0097A7 !important;
 }
 
 /** Skin-bg-color **/
@@ -660,7 +668,7 @@ a.checkout-button:hover, .coupon button:hover, .ttm-cart-form button:hover, .pla
 .services-slide.owl-theme .owl-controls .owl-nav div:hover,
 .featured-imagebox-team.style2:hover .ttm-team-box-view-overlay,
 .color-trigger{
-  background-color: rgb(34, 34, 238);
+  background-color: #0097A7;
 }
 
 /** Skin-border-color **/
@@ -700,7 +708,7 @@ input[type="color"]:focus,
 .ttm-tabs ul.tabs li.active a,
 .ttm-blog-classic .ttm-blog-classic-content  blockquote,
 .ttm-header-icons .ttm-header-search-link a:hover{ 
-    border-color: rgb(19, 19, 228) !important;
+    border-color: #0097A7 !important;
 }
 .ttm-search-overlay,
 #site-header-menu #site-navigation .menu > ul,
@@ -708,15 +716,15 @@ input[type="color"]:focus,
 .ttm-rounded-shadow-box, div.product ul.tabs li.active a:before,
 .coupon_toggle .coupon_code,
 #payment .payment_box{
-    border-top-color: rgb(2, 2, 32) !important; 
+    border-top-color: #0097A7 !important; 
 }
 .featured-imagebox-portfolio.ttm-box-view-top-image:hover .ttm-box-bottom-content:before{
-  border-color: transparent transparent rgb(2, 2, 32) transparent;
+  border-color: transparent transparent #0097A7 transparent;
 }
 .ttm-search-overlay .w-search-form-row:before,
 .featured-icon-box.style11,
 .testimonials.style2 .testimonial-content{ 
-  border-bottom-color: rgb(2, 2, 32) !important; 
+  border-bottom-color: #0097A7 !important; 
 }
 
 
@@ -1058,7 +1066,7 @@ div.product #reviews .star-rating,
     left: 0;
     display: block;
     background: #fff;
-    background-image: url(../images/load2.gif);
+    background-image: url(../images/load-3.gif);
     background-repeat: no-repeat;
     background-position: center;
 }
